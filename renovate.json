@@ -3,7 +3,7 @@
   "branchTopic": "{{#if sourceRepoSlug}}{{{sourceRepoSlug}}}{{else}}{{{depNameSanizited}}}{{/if}}-{{{newMajor}}}{{#if separateMinorPatch}}{{#if isPatch}}.{{{newMinor}}}{{/if}}{{/if}}.x{{#if isLockfileUpdate}}-lockfile{{/if}}",
   "hostRules": [{
     "baseUrl": "https://docker.io",
-    "username": "abc"
+    "username": "abc",
     "password": "123"
   }]
 }
