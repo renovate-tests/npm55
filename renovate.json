@@ -1,5 +1,6 @@
 {
   "baseBranches": ["development"],
+  "enabledManagers": ["bundler"],
   "branchTopic": "{{#if sourceRepoSlug}}{{{sourceRepoSlug}}}{{else}}{{{depNameSanitized}}}{{/if}}-{{{newMajor}}}{{#if separateMinorPatch}}{{#if isPatch}}.{{{newMinor}}}{{/if}}{{/if}}.x{{#if isLockfileUpdate}}-lockfile{{/if}}",
   "hostRules": [{
     "baseUrl": "https://docker.io",
